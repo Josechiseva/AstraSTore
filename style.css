@@ -156,7 +156,7 @@ main section#sec2 div#caixas{
     width: 100%;
 }
 main section#sec2 div#caixas div#um{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,7 +225,7 @@ main section#sec2 div#caixas div#um div#text2 a:hover{
     border: solid 1px #ff7200;
 }
 main section#sec2 div#caixas div#dois{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,7 +295,7 @@ main section#sec2 div#caixas div#dois div#text2 a:hover{
 }
 
 main section#sec2 div#caixas div#tres{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,7 +365,7 @@ main section#sec2 div#caixas div#tres div#text2 a:hover{
 }
 
 main section#sec2 div#caixas div#quatro{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -436,7 +436,7 @@ main section#sec2 div#caixas div#quatro div#text2 a:hover{
 
 
 main section#sec2 div#caixas div#cinco{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -508,7 +508,7 @@ main section#sec2 div#caixas div#cinco div#text2 a:hover{
 
 
 main section#sec2 div#caixas div#seis{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -596,7 +596,7 @@ main section#sec3 div#caixas{
 
 
 main section#sec3 div#caixas div#um{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -665,7 +665,7 @@ main section#sec3 div#caixas div#um div#text2 a:hover{
     border: solid 1px #ff7200;
 }
 main section#sec3 div#caixas div#dois{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -735,7 +735,7 @@ main section#sec3 div#caixas div#dois div#text2 a:hover{
 }
 
 main section#sec3 div#caixas div#tres{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -805,7 +805,7 @@ main section#sec3 div#caixas div#tres div#text2 a:hover{
 }
 
 main section#sec3 div#caixas div#quatro{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -876,7 +876,7 @@ main section#sec3 div#caixas div#quatro div#text2 a:hover{
 
 
 main section#sec3 div#caixas div#cinco{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -948,7 +948,7 @@ main section#sec3 div#caixas div#cinco div#text2 a:hover{
 
 
 main section#sec3 div#caixas div#seis{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
