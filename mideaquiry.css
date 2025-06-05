@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media screen and (min-width: 992px){
+    nav {
+        width: 90%;
+    }
+    nav div#principal{
+        width: 70%;
+    }
+    nav div#principal div#img{
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
+    }
+    nav div#principal div#img img{
+        width: 50%;
+    }
+    nav div#principal div#carrinho{
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav div#links{
+        display: block;
+    }
+    nav div#links div#icone{
+        display: none;
+    }
+    nav div#links menu#itens{
+        display: block;
+    }
+    nav div#links menu#itens nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    nav div#links menu#itens nav ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+    nav div#links menu#itens nav ul li a{
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        font-size: 14px;
+    }
+    nav div#links menu#itens nav ul li a:hover{
+        color: #ff7200;
+        transition: all .6s ease;
+    }
+    main section#sec1 a:hover{
+        background-color: white;
+        color: black;
+        transition: all .6s ease;
+    }
+    main section#sec2 div#caixas{
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+    main section#sec2 div#caixas div#um, main section#sec2 div#caixas div#dois, main section#sec2 div#caixas div#tres, main section#sec2 div#caixas div#quatro, main section#sec2 div#caixas div#cinco, main section#sec2 div#caixas div#seis{
+        width: 40%;
+    }
+    main section#sec3 div#caixas{
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+    main section#sec3 div#caixas div#um, main section#sec3 div#caixas div#dois, main section#sec3 div#caixas div#tres, main section#sec3 div#caixas div#quatro, main section#sec3 div#caixas div#cinco, main section#sec3 div#caixas div#seis{
+        width: 40%;
+    }
+    footer{
+        width: 60%;
+    }
+    footer div#um div#cnt1 img{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 1100px){
+    main section#sec2 div#caixas div#um, main section#sec2 div#caixas div#dois, main section#sec2 div#caixas div#tres, main section#sec2 div#caixas div#quatro, main section#sec2 div#caixas div#cinco, main section#sec2 div#caixas div#seis{
+        width: 30%;
+    }
+    main section#sec3 div#caixas div#um, main section#sec3 div#caixas div#dois, main section#sec3 div#caixas div#tres, main section#sec3 div#caixas div#quatro, main section#sec3 div#caixas div#cinco, main section#sec3 div#caixas div#seis{
+        width: 30%;
+    }
+}

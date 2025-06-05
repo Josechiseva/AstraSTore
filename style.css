@@ -87,7 +87,7 @@ nav div#links div#icone span{
     cursor: pointer;
 }
 nav div#links menu#itens{
-    width: 80%;
+    width: 100%;
     display: none;
 }
 nav div#links menu#itens nav{
