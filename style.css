@@ -1,1 +1,1058 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-top: 60px;
+    
+}
+nav div#principal{
+    display: flex;
+    justify-content: space-between;
+}
+nav div#principal div#img{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+nav div#principal div#img img{
+    width: 80%;
+}
+nav div#principal div#pesquisa{
+    display: flex;
+    width: 50%;
+    border: black solid 1px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+nav div#principal div#pesquisa div#back{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+}
+nav div#principal div#pesquisa div#back img{
+    padding: 3px;
+    margin: 05px 0;
+    border-radius: 20px;
+    background-color: black;
+    width: 40%;
+}
+nav div#principal div#pesquisa p{
+    font-size: 10px;
+    color: gray;
+
+}
+nav div#principal div#carrinho{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+}
+nav div#principal div#carrinho a{
+    text-align: center;
+} 
+nav div#principal div#carrinho img{
+    width: 30%;
+}
+nav div#links{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+nav div#links div#icone{
+    width: 10%;
+}
+nav div#links div#icone span{
+    font-size: 3em;
+    cursor: pointer;
+}
+nav div#links menu#itens{
+    width: 80%;
+    display: none;
+}
+nav div#links menu#itens nav{
+    margin: 0;
+}
+nav div#links menu#itens nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+nav div#links menu#itens nav ul li{
+    width: 100%;
+    display: flex;
+}
+nav div#links menu#itens nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+main{
+    margin-top: 20px;
+    width: 100%;
+}
+main section#sec1{
+    background-color: #ff7200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+main section#sec1 h1{
+    color: white;
+}
+main section#sec1 p{
+    color: white;
+    font-weight: lighter;
+    font-weight: 10px;
+}
+main section#sec1 a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+main section#sec2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section#sec2 div#caixas{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+main section#sec2 div#caixas div#um{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec2 div#caixas div#um:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec2 div#caixas div#um div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec2 div#caixas div#um div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec2 div#caixas div#um div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Pc.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec2 div#caixas div#um div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec2 div#caixas div#um div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#um div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#um div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec2 div#caixas div#um div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec2 div#caixas div#um div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec2 div#caixas div#um div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+main section#sec2 div#caixas div#dois{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec2 div#caixas div#dois:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec2 div#caixas div#dois div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec2 div#caixas div#dois div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec2 div#caixas div#dois div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Teclado.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec2 div#caixas div#dois div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec2 div#caixas div#dois div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#dois div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#dois div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec2 div#caixas div#dois div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec2 div#caixas div#dois div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec2 div#caixas div#dois div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+
+main section#sec2 div#caixas div#tres{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec2 div#caixas div#tres:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec2 div#caixas div#tres div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec2 div#caixas div#tres div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec2 div#caixas div#tres div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Mouse.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec2 div#caixas div#tres div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec2 div#caixas div#tres div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#tres div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#tres div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec2 div#caixas div#tres div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec2 div#caixas div#tres div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec2 div#caixas div#tres div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+
+main section#sec2 div#caixas div#quatro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec2 div#caixas div#quatro:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec2 div#caixas div#quatro div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec2 div#caixas div#quatro div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec2 div#caixas div#quatro div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/PCgamer.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec2 div#caixas div#quatro div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec2 div#caixas div#quatro div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#quatro div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#quatro div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec2 div#caixas div#quatro div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec2 div#caixas div#quatro div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec2 div#caixas div#quatro div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+
+
+main section#sec2 div#caixas div#cinco{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec2 div#caixas div#cinco:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec2 div#caixas div#cinco div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec2 div#caixas div#cinco div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec2 div#caixas div#cinco div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Headphone.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec2 div#caixas div#cinco div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec2 div#caixas div#cinco div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#cinco div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#cinco div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec2 div#caixas div#cinco div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec2 div#caixas div#cinco div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec2 div#caixas div#cinco div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+
+
+
+main section#sec2 div#caixas div#seis{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec2 div#caixas div#seis:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec2 div#caixas div#seis div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec2 div#caixas div#seis div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec2 div#caixas div#seis div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Mousepad.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec2 div#caixas div#seis div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec2 div#caixas div#seis div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#seis div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec2 div#caixas div#qseis div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec2 div#caixas div#seis div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec2 div#caixas div#seis div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec2 div#caixas div#seis div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+main section#sec3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section#sec3 div#caixas{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+
+
+main section#sec3 div#caixas div#um{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec3 div#caixas div#um:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec3 div#caixas div#um div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec3 div#caixas div#um div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec3 div#caixas div#um div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/S25.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec3 div#caixas div#um div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec3 div#caixas div#um div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#um div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#um div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec3 div#caixas div#um div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec3 div#caixas div#um div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec3 div#caixas div#um div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+main section#sec3 div#caixas div#dois{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec3 div#caixas div#dois:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec3 div#caixas div#dois div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec3 div#caixas div#dois div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec3 div#caixas div#dois div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Placa.jpeg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec3 div#caixas div#dois div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec3 div#caixas div#dois div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#dois div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#dois div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec3 div#caixas div#dois div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec3 div#caixas div#dois div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec3 div#caixas div#dois div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+
+main section#sec3 div#caixas div#tres{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec3 div#caixas div#tres:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec3 div#caixas div#tres div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec3 div#caixas div#tres div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec3 div#caixas div#tres div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Micro.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec3 div#caixas div#tres div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec3 div#caixas div#tres div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#tres div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#tres div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec3 div#caixas div#tres div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec3 div#caixas div#tres div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec3 div#caixas div#tres div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+
+main section#sec3 div#caixas div#quatro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec3 div#caixas div#quatro:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec3 div#caixas div#quatro div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec3 div#caixas div#quatro div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec3 div#caixas div#quatro div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/PS.png');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec2 div#caixas div#quatro div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec3 div#caixas div#quatro div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#quatro div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#quatro div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec3 div#caixas div#quatro div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec3 div#caixas div#quatro div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec3 div#caixas div#quatro div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+
+
+main section#sec3 div#caixas div#cinco{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec3 div#caixas div#cinco:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec3 div#caixas div#cinco div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec3 div#caixas div#cinco div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec3 div#caixas div#cinco div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Nintendo.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec3 div#caixas div#cinco div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec3 div#caixas div#cinco div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#cinco div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#cinco div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec3 div#caixas div#cinco div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec3 div#caixas div#cinco div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec3 div#caixas div#cinco div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+
+
+
+main section#sec3 div#caixas div#seis{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+main section#sec3 div#caixas div#seis:hover{
+    transform: scale(1.1,1.1);
+    transition: all .6s ease;
+}
+main section#sec3 div#caixas div#seis div#text1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 5px;   
+}
+main section#sec3 div#caixas div#seis div#text1 p{
+    font-size: 9px;
+    background-color: #ffd6b5;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+main section#sec3 div#caixas div#seis div#img{
+    width:70%;
+    height: 150px;
+    background: black url('Imagens/Fonte.png');
+    background-size: cover;
+    border-radius: 10px;
+}
+main section#sec3 div#caixas div#seis div#text2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+main section#sec3 div#caixas div#seis div#text2 h4{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#seis div#text2 h5{
+    font-size: 1.3em;
+}
+main section#sec3 div#caixas div#qseis div#text2 h5 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main section#sec3 div#caixas div#seis div#text2 p{
+    color: gray;
+    font-weight: 300;
+}
+main section#sec3 div#caixas div#seis div#text2 a{
+    text-decoration: none;
+    background-color: #ff7200;
+    text-align: center;
+    padding: 6px;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+main section#sec3 div#caixas div#seis div#text2 a:hover{
+    color: #ff7200;
+    background-color: white;
+    border: solid 1px #ff7200;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    padding: 10px;
+}
+footer div#um div#cnt1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer div#um{
+    display: flex;
+    padding: 10px;
+}
+footer div#um div#cnt1 p{
+    color: #636363;
+    width: 60%;
+}
+footer div#um div#cnt1 img{
+    width: 30%;
+}
+footer div#um div#cnt2 p{
+    color: #636363;
+}
+
+
+footer div#dois{
+    width: 68%;
+    margin: 40px 0;
+    background-color: #464646;
+    height: .1vh;
+}
+footer div#tres{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: #636363;
+}
